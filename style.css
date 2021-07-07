@@ -1,0 +1,115 @@
+/* Navigation styles */
+.logo {
+    background: white;
+    height: 230px;
+}
+
+.nav {
+    display: flex;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.center {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.center a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+/* Column styles */
+
+.column {
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.project1, .project2, .project3, .project4 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.project1 {
+    margin-top: 20px;
+    background-image: url("../UX_UI_HW_17/images/YOUWHO.png");
+}
+
+.project2 {
+    margin-top: 20px;
+    background-image: url("../UX_UI_HW_17/images/LISTR.png");
+}
+
+.project3 {
+    margin-top: 20px;
+    background-image: url("../UX_UI_HW_17/images/DOE.png");
+}
+
+.project4 {
+    margin-top: 20px;
+    background-image: url("../UX_UI_HW_17/images/MOREART.png");
+}
+
+.text {
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+.text p {
+    color: rgba(255,255,255,0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Footer Styles */
+
+.footer {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding: 40px;
+    font-family: sans-serif;
+}
+
+.footer a{
+    text-decoration: none;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.vm {
+    color: skyblue;
+}
+
+.fb {
+    color: navy;
+}
+
+.tw {
+    color: cornflowerblue;
+}
+
+.ig {
+    color: hotpink;
+}
