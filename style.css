@@ -1,29 +1,35 @@
 /* Navigation styles */
-.logo {
+#logo {
     background: white;
-    height: 230px;
+    height: 30px;
 }
 
-.nav {
+#navBar {
     display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
     background-color: lightgray;
     padding: 20px;
 }
 
-.center {
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+#navBar h1 {
+    color: blue;
+    width: 25%;
+    font-weight: bold;
 }
 
-.center a {
-    color: white;
-    padding: 10px;
-    font-size: 18px;
+#navigation {
+    color: blue;
+    font-weight: bold;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navigation p {
+    cursor: pointer;
     text-decoration: none;
-    font-family: Arial;
 }
 
 /* Column styles */
@@ -113,3 +119,5 @@
 .ig {
     color: hotpink;
 }
+
+/* Grid CSS */
