@@ -1,7 +1,6 @@
 /* Navigation styles */
 #logo {
     background: white;
-    height: 30px;
 }
 
 #navBar {
@@ -10,11 +9,22 @@
     margin: 0px 5%;
     background-color: lightgray;
     padding: 20px;
+    justify-content: space-between;
+}
+
+#alogo {
+    height: 50px;
+    margin: 10px;
+}
+#profile {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
 }
 
 #navBar h1 {
     color: blue;
-    width: 25%;
+    width: 100%;
     font-weight: bold;
 }
 
@@ -37,14 +47,14 @@
 .column {
     display: flex;
     height: 1200px;
-    width: 800px;
+    width: 967px;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0 5%;
 }
 
 .project1, .project2, .project3, .project4 {
     height: 100%;
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: flex-end;
     margin-bottom: 20px;
